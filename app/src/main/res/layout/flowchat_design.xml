@@ -1,0 +1,123 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/background"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="4dp"
+		android:paddingTop="4dp"
+		android:paddingRight="4dp"
+		android:paddingBottom="12dp"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/userquestion_background"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="10dp"
+			android:padding="2dp"
+			android:gravity="left|center_vertical"
+			android:orientation="vertical"
+			android:layout_gravity="right|center_vertical">
+			<TextView
+				android:id="@+id/user_question"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="10dp"
+				android:gravity="left|center_vertical"
+				android:text="Elicia buat agar Mereka Puas!"
+				android:textSize="13sp"
+				android:textColor="#000000"
+				android:focusable="false" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/eliciaanswer_background"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_marginTop="3dp"
+			android:layout_marginRight="10dp"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/elicia_answer"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:padding="10dp"
+				android:text="Siap tuanku IqwanoINO Akan saya usahakan.."
+				android:textSize="13sp"
+				android:textColor="#000000"
+				android:focusable="false" />
+			<LinearLayout
+				android:id="@+id/eliciaanswer_tooltip_background"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal"
+				android:layout_weight="1"
+				android:alpha="1.0">
+				<ImageView
+					android:id="@+id/button_thumb_up"
+					android:layout_width="19dp"
+					android:layout_height="19dp"
+					android:layout_marginRight="16dp"
+					android:src="@drawable/thumb_up"
+					android:scaleType="fitXY"
+					android:focusable="false" />
+				<ImageView
+					android:id="@+id/button_thumb_down"
+					android:layout_width="19dp"
+					android:layout_height="19dp"
+					android:layout_marginRight="16dp"
+					android:src="@drawable/thumb_down"
+					android:scaleType="fitXY"
+					android:focusable="false" />
+				<ImageView
+					android:id="@+id/button_content_share"
+					android:layout_width="19dp"
+					android:layout_height="19dp"
+					android:layout_marginRight="16dp"
+					android:src="@drawable/ic_content_share"
+					android:scaleType="fitXY"
+					android:focusable="false" />
+				<ImageView
+					android:id="@+id/button_content_copy"
+					android:layout_width="19dp"
+					android:layout_height="19dp"
+					android:layout_marginRight="16dp"
+					android:src="@drawable/ic_content_copy"
+					android:scaleType="fitXY"
+					android:focusable="false" />
+				<ImageView
+					android:id="@+id/button_content_morevert"
+					android:layout_width="19dp"
+					android:layout_height="19dp"
+					android:src="@drawable/ic_content_more"
+					android:scaleType="fitXY"
+					android:focusable="false" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<TextView
+		android:id="@+id/onoff_system_thumbdown"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:padding="8dp"
+		android:text="off"
+		android:textSize="12sp"
+		android:textColor="#000000"
+		android:focusable="false" />
+	<TextView
+		android:id="@+id/onoff_system_thumbup"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:padding="8dp"
+		android:text="off"
+		android:textSize="12sp"
+		android:textColor="#000000"
+		android:focusable="false" />
+</LinearLayout>
