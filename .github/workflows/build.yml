@@ -26,5 +26,5 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: SenseiX-debug
+          name: EliciaAI
           path: app/build/outputs/apk/debug/*.apk
